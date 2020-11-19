@@ -1,82 +1,82 @@
 let questions = [
     {
-      "question": `What is the first book of the Old Testament?
+      text: `What is the first book of the Old Testament?
         A. Leviticus
         B. Numbers
         C. Genesis
         D. Exodus`,
-      "correctAnswer": "C"
+      correctAnswer: "C"
     },
     {
-      "question": `How would one say goodbye in Spanish?
+      text: `How would one say goodbye in Spanish?
         A. Hola
         B. Au Revoir
         C. Salir
         D. Adiós`,
-      "correctAnswer": "D"
+      correctAnswer: "D"
     },
     {
-      "question": `What is the French word for 'hat'?
+      text: `What is the French word for 'hat'?
         A.  Casque
         B. Chapeau
         C. Bonnet
         D. Écharpe`,
-      "correctAnswer": "B"
+      correctAnswer: "B"
     },
     {
-      "question": `The New York Times slogan is, 'All the News That's Fit to...';
+      text: `The New York Times slogan is, 'All the News That's Fit to...';
         A. Digest
         B. Look
         C. Read
         D. Print`,
-      "correctAnswer": "D"
+      correctAnswer: "D"
     },
     {
-      "question": `Which restaurant's mascot is a clown?
+      text: `Which restaurant's mascot is a clown?
         A. Chick-Fil-A
         B. Sonic
         C. McDonald's
         D. Whataburger`,
-      "correctAnswer": "C"
+      correctAnswer: "C"
     },
     {
-      "question": `Which of the following is the IATA code for Manchester Airport?
+      text: `Which of the following is the IATA code for Manchester Airport?
         A. MAN
         B. EGLL
         C. LHR
         D. EGCC`,
-      "correctAnswer": "A"
+      correctAnswer: "A"
     },
     {
-      "question": `If you are caught 'Goldbricking', what are you doing wrong?
+      text: `If you are caught 'Goldbricking', what are you doing wrong?
         A. Stealing
         B. Cheating
         C. Slacking
         D. Smoking`,
-      "correctAnswer": "C"
+      correctAnswer: "C"
     },
     {
-      "question": `Earth is located in which galaxy?
+      text: `Earth is located in which galaxy?
         A. The Black Hole
         B. The Milky Way Galaxy
         C. The Mars Galaxy
         D. The Galaxy Note`,
-      "correctAnswer": "B"
+      correctAnswer: "B"
     },
     {
-      "question": `What are Panama hats made out of?
+      text: `What are Panama hats made out of?
         A. Silk
         B. Hemp
         C. Flax
         D. Straw`,
-      "correctAnswer": "D"
+      correctAnswer: "D"
     },
     {
-      "question": `What kind of aircraft was developed by Igor Sikorsky in the United States in 1942?
+      text: `What kind of aircraft was developed by Igor Sikorsky in the United States in 1942?
         A. Jet
         B. Space Capsule
         C. Helicopter
         D. Stealth Blimp`,
-      "correctAnswer": "C"
+      correctAnswer: "C"
     }
   ]
