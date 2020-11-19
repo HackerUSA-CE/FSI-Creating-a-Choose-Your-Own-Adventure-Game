@@ -6,32 +6,32 @@ let userScore = 0;
 for(let i = 0; i < questions.length; i++){
     let userAnswer = window.prompt(questions[i].question)
     if(userAnswer === questions[i].correctAnswer){
-        userScore++
+        userScore = userScore + 10
     }
 }
 
 window.alert('Your score is: '+userScore)
 
-let result = {
-    userName: userName,
+let game = {
+    user: userName,
     score: userScore
 }
 
-let allScores = localStorage.getItem('scores')
-
-if(allScores == undefined){
-    allScores = []
+let serializedGames = localStorage.getItem('games')
+let games = JSON.parse(serializedGames)
+if(games == undefined){
+    games = []
 }
 
-allScores.push(result)
+games.push(game)
 
-let serializedScores = JSON.stringify(allScores)
-localStorage.setItem('scores', serializedScores)
+serializedGames = JSON.stringify(games)
+localStorage.setItem('games', serializedGames)
 
-let highScore = allScores[0]
-for(let i = 0; i < allScores.length; i++){
-    if(highScore.score > allScores[i].score){
-        highScore = allScores[i]
+let highestScoringGame = games[0]
+for(let i = 0; i < games.length; i++){
+    if(games[i].score > highestScoringGame.score){
+        highestScoringGame = games[i]
     }
 }
-window.alert('The high score is: '+highScore.score)
+window.alert('The high score is: '+highestScoringGame.score)
