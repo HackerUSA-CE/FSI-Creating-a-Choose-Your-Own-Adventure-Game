@@ -14,7 +14,7 @@ window.alert('Your score is: '+userScore)
 let serializedGames = localStorage.getItem('games')
 
 let games;
-if(serializedGames === undefined){
+if(serializedGames === null){
     games = [] 
 } else {
     games = JSON.parse(serializedGames)
