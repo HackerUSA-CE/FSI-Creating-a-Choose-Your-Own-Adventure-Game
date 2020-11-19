@@ -12,15 +12,15 @@ for(let i = 0; i < questions.length; i++){
 
 window.alert('Your score is: '+userScore)
 
-let game = {
-    user: userName,
-    score: userScore
-}
-
 let serializedGames = localStorage.getItem('games')
 let games = JSON.parse(serializedGames)
 if(games == undefined){
     games = []
+}
+
+let game = {
+    user: userName,
+    score: userScore
 }
 
 games.push(game)
