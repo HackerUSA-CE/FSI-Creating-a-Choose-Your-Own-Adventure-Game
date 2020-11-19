@@ -33,7 +33,7 @@ let questions = [
     },
     {
       "question": `Which restaurant's mascot is a clown?
-        A. Burger King
+        A. Chick-Fil-A
         B. Sonic
         C. McDonald's
         D. Whataburger`,
@@ -48,7 +48,7 @@ let questions = [
       "correctAnswer": "A"
     },
     {
-      "question": `If you are caught &quot;Goldbricking&quot;, what are you doing wrong?
+      "question": `If you are caught 'Goldbricking', what are you doing wrong?
         A. Stealing
         B. Cheating
         C. Slacking
